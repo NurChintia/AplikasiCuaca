@@ -7,7 +7,7 @@ const axios = require('axios');
 
 
 const app = express()
-
+const port = process.env.PORT || 5000
 // Mendefinisikan jalur/path untuk konfigurasi express
 const direktoriPublic = path.join(__dirname, '../public')
 const direktoriViews = path.join(__dirname, '../templates/views')
@@ -129,6 +129,6 @@ app.get('*',(req,res)=>{
     })
 })
 
-app.listen(5000, () => {
-console.log('Server berjalan pada port 5000.')
+app.listen(port, () => {
+console.log('Server berjalan pada port.' + port)
 })
