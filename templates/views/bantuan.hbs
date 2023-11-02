@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Halaman Bantuan</title>
+    <link rel="icon" href="/img/logo.png">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <div class="faq">
+            <h2>Frequently Asked Questions (FAQ)</h2>
+
+            <h3>a. Halaman ini digunakan untuk apa?</h3>
+            <p><strong>Jawaban:</strong>Halaman bantuan pada sebuah website digunakan 
+            untuk memberikan panduan, informasi, dan jawaban atas pertanyaan umum 
+            yang sering diajukan oleh pengguna.</p>
+
+            <h3>b. Apa itu API?</h3>
+            <p><strong>Jawaban:</strong> API adalah singkatan dari Application Programming Interface.
+            Ini adalah kumpulan protokol, alat, dan definisi yang memungkinkan aplikasi perangkat lunak untuk berkomunikasi atau berinteraksi satu sama lain.
+            API memungkinkan pengembang untuk menggunakan fungsionalitas atau layanan dari aplikasi atau platform lain tanpa harus mengetahui detail internal 
+            dari cara fungsionalitas tersebut diimplementasikan. Ini memungkinkan integrasi antara berbagai sistem dan aplikasi untuk saling berinteraksi dan bertukar data.</p>
+
+            <h3>c. API apa yang digunakan dalam aplikasi ini?</h3>
+            <p><strong>Jawaban:</strong> Aplikasi kami menggunakan API Mapbox dan API Weatherstack. API Mapbox adalah layanan pemetaan yang memungkinkan pengembang untuk menambahkan peta interaktif ke dalam aplikasi mereka. 
+            Ini dapat digunakan untuk menampilkan peta kustom, rute, marker, dan informasi geografis lainnya. sedangkan API Weatherstack, di sisi lain, adalah layanan yang memberikan data cuaca real-time dan perkiraan cuaca untuk lokasi tertentu.
+            Pengembang dapat menggunakannya untuk mengambil informasi cuaca saat ini, perkiraan jangka pendek, dan jangka panjang untuk berbagai lokasi di seluruh dunia.</p>
+
+            <h3>d. Salah satu pola arsitektur API adalah (pilih salah satu SOA, RESTful, GraphQL, dan gRPC)</h3>
+            <p><strong>Jawaban:</strong> Salah satu pola arsitektur API yang digunakan dalam aplikasi kami adalah
+                SOAP adalah singkatan dari Simple Object Access Protocol adalah platform jaringan yang digunakan dalam layanan web untuk bertukar atau mengkomunikasikan data antara dua mesin yang berbeda dalam sebuah jaringan. SOAP menggunakan format data XML untuk mentransfer pesan melalui protokol HTTP. Dalam layanan Web, SOAP memungkinkan permintaan pengguna untuk berinteraksi dengan bahasa pemrograman lain. Dengan cara ini, SOAP menyediakan cara untuk berkomunikasi antara aplikasi yang
+berjalan pada platform yang berbeda (sistem operasi), dengan bahasa pemrograman dan teknologi yang digunakan dalam layanan web.</p>
+
+            <h3>e. Gambar Pendukung</h3>
+            <img src="/img/SOAP.png" alt="Gambar Pendukung">
+        </div>
+    </div>
+    {{>footer}}
+</body>
+
+</html>

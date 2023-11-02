@@ -1,0 +1,168 @@
+body {
+    color: #333333;
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('../img/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    color: #c04646;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 25px;
+    transition: box-shadow 0.15s;
+}
+
+header a:active {
+    box-shadow: 0 0 5px 2px #ff1b1b;
+}
+
+p {
+    color: #ffffff;
+    font-family: 'Lobster', cursive; 
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+img.portrait {
+    width: 260px;
+    border: 2px solid #c04646;
+    border-radius: 480%; 
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #9505f5;
+    border-radius: 4px;
+}
+
+button {
+    cursor: pointer;
+    border: 0;
+    background: #9505f5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: gold;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.faq {
+    background-color: rgba(140, 224, 71, 0.1); 
+    padding: 20px;
+    border-radius: 10px; 
+    text-align: left;
+    max-width: 700px; 
+    margin: 0 auto;
+}
+
+.faq h2 {
+    color: #c0467f;
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.faq h3 {
+    color: #fff;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.faq p {
+    color: #fffdfd;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.faq img {
+    max-width: 100%;
+    border: 2px solid #46c0ba;
+    border-radius: 10px;
+}
+/* Tambahan CSS untuk halaman berita */
+.berita-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.berita-item {
+    padding: 20px;
+    background-color: #c04689;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.berita-item h3 {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.berita-item p {
+    color: #08d4e2;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.berita-item a {
+    color: #0c0001;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.berita-item a:hover {
+    color: #1bfff4;
+}
+h2 {
+    color: #c0464c;
+    font-size: 28px;
+    margin-top: 0;
+}
